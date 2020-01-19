@@ -25,7 +25,7 @@ class ReminderManager(commands.Cog):
     async def checkAll(self):
         for reminder in self.reminders:
             if reminder.isDue():
-                reminder.notifyAuthor():
+                reminder.notifyAuthor()
 
     def to_datetime(stringtime):
         pass
